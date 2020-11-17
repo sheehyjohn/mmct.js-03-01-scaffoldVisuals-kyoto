@@ -18,6 +18,11 @@ While it will render to a video file it will also lose Framerate and as such use
 What is important to remember is that samples can be sources/recorded and then downloaded into the RemixVideo and Reaper used as a Sequencer and live mixer for these samples....therefore while it would be great to attach live audio to RemixVideo Pads and it would be wonderful if the RemixVideo Render worked ..... what's important to remember is that it is beautiful when it works well and it does have a definate use case and appreas to stable when used as in Reaper DAW to run sequences of samples with live effects
 Also it can be used as a Standalone Sequencer
 
+## Capture
+I tried Snagit Screen capture and it didn't work although at least the video was in sync with the audio, however the video had too many dropped frames.
+
+Now it looks like that Sprout could be an option or else it just comes down to the fact that this machines graphics processing capabilites are insufficent and that the software is ok and it's a hardware issues that requires an upgrade to resolve
+
 
 # Magic Visuals
 * Magic can take multiple different types of input
