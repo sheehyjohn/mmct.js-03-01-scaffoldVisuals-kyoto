@@ -8,7 +8,7 @@ this is also the first place to test the visualisations packages that I've been 
 
 
 
-### RemixVideo mixVibes
+# RemixVideo mixVibes
 it breaks me that this software is buggy
 Will Render in RealTime from the VST Screen Out
 While it will render to a video file it will also lose Framerate and as such use with Caution.
@@ -17,6 +17,21 @@ While it will render to a video file it will also lose Framerate and as such use
 
 What is important to remember is that samples can be sources/recorded and then downloaded into the RemixVideo and Reaper used as a Sequencer and live mixer for these samples....therefore while it would be great to attach live audio to RemixVideo Pads and it would be wonderful if the RemixVideo Render worked ..... what's important to remember is that it is beautiful when it works well and it does have a definate use case and appreas to stable when used as in Reaper DAW to run sequences of samples with live effects
 Also it can be used as a Standalone Sequencer
+
+
+# Magic Visuals
+* Magic can take multiple different types of input
+    - Audio Input
+    - Routed Reaper/Spotify Playback
+    - MIDI Files as recorded
+    - Audio files already recorded
+* Magic does not have the VST Capabilities
+But it does render well so the playlist functionaility could be synced with Reaper Scaffolding and then the videos imported into Reaper
+
+
+
+
+# The Case for GSLD Shaders
 
 
 
