@@ -1,0 +1,370 @@
+{
+    "status": {
+        "code": 200
+    },
+    "chords_result": {
+        "num_chords": 72,
+        "chords": [
+            {
+                "index": 0,
+                "time": 0.17807255685329437,
+                "chord": "N"
+            },
+            {
+                "index": 1,
+                "time": 0.864126980304718,
+                "chord": "B:maj"
+            },
+            {
+                "index": 2,
+                "time": 4.752063274383545,
+                "chord": "E:maj"
+            },
+            {
+                "index": 3,
+                "time": 8.41260814666748,
+                "chord": "B:maj"
+            },
+            {
+                "index": 4,
+                "time": 12.076848030090332,
+                "chord": "E:maj"
+            },
+            {
+                "index": 5,
+                "time": 15.74138355255127,
+                "chord": "B:maj"
+            },
+            {
+                "index": 6,
+                "time": 18.718685150146484,
+                "chord": "F#:maj6"
+            },
+            {
+                "index": 7,
+                "time": 19.40584945678711,
+                "chord": "E:maj7"
+            },
+            {
+                "index": 8,
+                "time": 23.066417694091797,
+                "chord": "B:maj"
+            },
+            {
+                "index": 9,
+                "time": 26.27618980407715,
+                "chord": "A#:aug"
+            },
+            {
+                "index": 10,
+                "time": 26.505260467529297,
+                "chord": "E:maj"
+            },
+            {
+                "index": 11,
+                "time": 30.169342041015625,
+                "chord": "B:maj"
+            },
+            {
+                "index": 12,
+                "time": 33.83346939086914,
+                "chord": "E:maj"
+            },
+            {
+                "index": 13,
+                "time": 37.72605514526367,
+                "chord": "C#:min"
+            },
+            {
+                "index": 14,
+                "time": 39.330726623535156,
+                "chord": "E:maj"
+            },
+            {
+                "index": 15,
+                "time": 41.162288665771484,
+                "chord": "B:maj"
+            },
+            {
+                "index": 16,
+                "time": 43.21963882446289,
+                "chord": "F#:maj"
+            },
+            {
+                "index": 17,
+                "time": 45.04975128173828,
+                "chord": "C#:min6"
+            },
+            {
+                "index": 18,
+                "time": 46.8813362121582,
+                "chord": "E:maj"
+            },
+            {
+                "index": 19,
+                "time": 48.715126037597656,
+                "chord": "G#:min"
+            },
+            {
+                "index": 20,
+                "time": 50.55020523071289,
+                "chord": "D#:min"
+            },
+            {
+                "index": 21,
+                "time": 52.38571548461914,
+                "chord": "C#:min6"
+            },
+            {
+                "index": 22,
+                "time": 54.21873092651367,
+                "chord": "E:maj"
+            },
+            {
+                "index": 23,
+                "time": 55.59086227416992,
+                "chord": "B:maj"
+            },
+            {
+                "index": 24,
+                "time": 57.87779998779297,
+                "chord": "F#:maj"
+            },
+            {
+                "index": 25,
+                "time": 59.708526611328125,
+                "chord": "C#:min6"
+            },
+            {
+                "index": 26,
+                "time": 61.54117965698242,
+                "chord": "E:maj7"
+            },
+            {
+                "index": 27,
+                "time": 63.37673568725586,
+                "chord": "B:maj"
+            },
+            {
+                "index": 28,
+                "time": 65.21539306640625,
+                "chord": "C#:maj"
+            },
+            {
+                "index": 29,
+                "time": 67.05532836914062,
+                "chord": "E:maj"
+            },
+            {
+                "index": 30,
+                "time": 70.70535278320312,
+                "chord": "B:maj"
+            },
+            {
+                "index": 31,
+                "time": 74.36766815185547,
+                "chord": "E:maj"
+            },
+            {
+                "index": 32,
+                "time": 77.80267333984375,
+                "chord": "B:maj"
+            },
+            {
+                "index": 33,
+                "time": 81.46650695800781,
+                "chord": "E:maj"
+            },
+            {
+                "index": 34,
+                "time": 85.35950469970703,
+                "chord": "B:maj"
+            },
+            {
+                "index": 35,
+                "time": 88.79508209228516,
+                "chord": "E:maj"
+            },
+            {
+                "index": 36,
+                "time": 92.6876220703125,
+                "chord": "B:maj"
+            },
+            {
+                "index": 37,
+                "time": 96.12376403808594,
+                "chord": "F#:min7"
+            },
+            {
+                "index": 38,
+                "time": 96.35301208496094,
+                "chord": "E:maj"
+            },
+            {
+                "index": 39,
+                "time": 100.01290130615234,
+                "chord": "B:maj7"
+            },
+            {
+                "index": 40,
+                "time": 103.6802749633789,
+                "chord": "E:maj7"
+            },
+            {
+                "index": 41,
+                "time": 107.11450958251953,
+                "chord": "B:maj7"
+            },
+            {
+                "index": 42,
+                "time": 111.00816345214844,
+                "chord": "E:maj"
+            },
+            {
+                "index": 43,
+                "time": 116.5038070678711,
+                "chord": "C#:min"
+            },
+            {
+                "index": 44,
+                "time": 118.33598327636719,
+                "chord": "E:maj"
+            },
+            {
+                "index": 45,
+                "time": 119.9378433227539,
+                "chord": "B:maj"
+            },
+            {
+                "index": 46,
+                "time": 121.99796295166016,
+                "chord": "F#:maj"
+            },
+            {
+                "index": 47,
+                "time": 123.82823181152344,
+                "chord": "C#:min6"
+            },
+            {
+                "index": 48,
+                "time": 125.66326904296875,
+                "chord": "E:maj"
+            },
+            {
+                "index": 49,
+                "time": 127.49673461914062,
+                "chord": "G#:min"
+            },
+            {
+                "index": 50,
+                "time": 129.32757568359375,
+                "chord": "D#:min"
+            },
+            {
+                "index": 51,
+                "time": 131.15982055664062,
+                "chord": "C#:min6"
+            },
+            {
+                "index": 52,
+                "time": 132.99630737304688,
+                "chord": "E:maj"
+            },
+            {
+                "index": 53,
+                "time": 134.82632446289062,
+                "chord": "B:maj"
+            },
+            {
+                "index": 54,
+                "time": 136.65696716308594,
+                "chord": "F#:maj"
+            },
+            {
+                "index": 55,
+                "time": 138.48843383789062,
+                "chord": "C#:min7"
+            },
+            {
+                "index": 56,
+                "time": 140.3209228515625,
+                "chord": "E:maj"
+            },
+            {
+                "index": 57,
+                "time": 142.15455627441406,
+                "chord": "B:maj"
+            },
+            {
+                "index": 58,
+                "time": 143.99411010742188,
+                "chord": "C#:maj"
+            },
+            {
+                "index": 59,
+                "time": 145.83126831054688,
+                "chord": "E:maj"
+            },
+            {
+                "index": 60,
+                "time": 149.48922729492188,
+                "chord": "B:maj"
+            },
+            {
+                "index": 61,
+                "time": 151.31353759765625,
+                "chord": "C#:maj6"
+            },
+            {
+                "index": 62,
+                "time": 153.1437225341797,
+                "chord": "E:maj"
+            },
+            {
+                "index": 63,
+                "time": 155.8938751220703,
+                "chord": "B:maj"
+            },
+            {
+                "index": 64,
+                "time": 158.4188232421875,
+                "chord": "C#:7"
+            },
+            {
+                "index": 65,
+                "time": 160.48049926757812,
+                "chord": "E:maj"
+            },
+            {
+                "index": 66,
+                "time": 163.45045471191406,
+                "chord": "B:maj"
+            },
+            {
+                "index": 67,
+                "time": 165.7401123046875,
+                "chord": "C#:7"
+            },
+            {
+                "index": 68,
+                "time": 167.8019256591797,
+                "chord": "E:maj"
+            },
+            {
+                "index": 69,
+                "time": 170.99790954589844,
+                "chord": "B:maj"
+            },
+            {
+                "index": 70,
+                "time": 173.05979919433594,
+                "chord": "C#:maj"
+            },
+            {
+                "index": 71,
+                "time": 175.12899780273438,
+                "chord": "E:maj"
+            }
+        ]
+    }
+}

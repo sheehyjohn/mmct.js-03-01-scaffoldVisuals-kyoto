@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+  <status code="200"/>
+  <chords_result num_chords="72">
+    <chords>
+      <chord index="0" time="0.17807255685329437256" chord="N"/>
+      <chord index="1" time="0.86412698030471801758" chord="B:maj"/>
+      <chord index="2" time="4.7520632743835449219" chord="E:maj"/>
+      <chord index="3" time="8.4126081466674804688" chord="B:maj"/>
+      <chord index="4" time="12.076848030090332031" chord="E:maj"/>
+      <chord index="5" time="15.741383552551269531" chord="B:maj"/>
+      <chord index="6" time="18.718685150146484375" chord="F#:maj6"/>
+      <chord index="7" time="19.405849456787109375" chord="E:maj7"/>
+      <chord index="8" time="23.066417694091796875" chord="B:maj"/>
+      <chord index="9" time="26.276189804077148438" chord="A#:aug"/>
+      <chord index="10" time="26.505260467529296875" chord="E:maj"/>
+      <chord index="11" time="30.169342041015625" chord="B:maj"/>
+      <chord index="12" time="33.833469390869140625" chord="E:maj"/>
+      <chord index="13" time="37.726055145263671875" chord="C#:min"/>
+      <chord index="14" time="39.33072662353515625" chord="E:maj"/>
+      <chord index="15" time="41.162288665771484375" chord="B:maj"/>
+      <chord index="16" time="43.219638824462890625" chord="F#:maj"/>
+      <chord index="17" time="45.04975128173828125" chord="C#:min6"/>
+      <chord index="18" time="46.881336212158203125" chord="E:maj"/>
+      <chord index="19" time="48.71512603759765625" chord="G#:min"/>
+      <chord index="20" time="50.550205230712890625" chord="D#:min"/>
+      <chord index="21" time="52.385715484619140625" chord="C#:min6"/>
+      <chord index="22" time="54.218730926513671875" chord="E:maj"/>
+      <chord index="23" time="55.590862274169921875" chord="B:maj"/>
+      <chord index="24" time="57.87779998779296875" chord="F#:maj"/>
+      <chord index="25" time="59.708526611328125" chord="C#:min6"/>
+      <chord index="26" time="61.541179656982421875" chord="E:maj7"/>
+      <chord index="27" time="63.376735687255859375" chord="B:maj"/>
+      <chord index="28" time="65.21539306640625" chord="C#:maj"/>
+      <chord index="29" time="67.055328369140625" chord="E:maj"/>
+      <chord index="30" time="70.705352783203125" chord="B:maj"/>
+      <chord index="31" time="74.36766815185546875" chord="E:maj"/>
+      <chord index="32" time="77.80267333984375" chord="B:maj"/>
+      <chord index="33" time="81.4665069580078125" chord="E:maj"/>
+      <chord index="34" time="85.35950469970703125" chord="B:maj"/>
+      <chord index="35" time="88.79508209228515625" chord="E:maj"/>
+      <chord index="36" time="92.6876220703125" chord="B:maj"/>
+      <chord index="37" time="96.1237640380859375" chord="F#:min7"/>
+      <chord index="38" time="96.3530120849609375" chord="E:maj"/>
+      <chord index="39" time="100.01290130615234375" chord="B:maj7"/>
+      <chord index="40" time="103.68027496337890625" chord="E:maj7"/>
+      <chord index="41" time="107.11450958251953125" chord="B:maj7"/>
+      <chord index="42" time="111.0081634521484375" chord="E:maj"/>
+      <chord index="43" time="116.50380706787109375" chord="C#:min"/>
+      <chord index="44" time="118.3359832763671875" chord="E:maj"/>
+      <chord index="45" time="119.93784332275390625" chord="B:maj"/>
+      <chord index="46" time="121.99796295166015625" chord="F#:maj"/>
+      <chord index="47" time="123.8282318115234375" chord="C#:min6"/>
+      <chord index="48" time="125.66326904296875" chord="E:maj"/>
+      <chord index="49" time="127.496734619140625" chord="G#:min"/>
+      <chord index="50" time="129.32757568359375" chord="D#:min"/>
+      <chord index="51" time="131.159820556640625" chord="C#:min6"/>
+      <chord index="52" time="132.996307373046875" chord="E:maj"/>
+      <chord index="53" time="134.826324462890625" chord="B:maj"/>
+      <chord index="54" time="136.6569671630859375" chord="F#:maj"/>
+      <chord index="55" time="138.488433837890625" chord="C#:min7"/>
+      <chord index="56" time="140.3209228515625" chord="E:maj"/>
+      <chord index="57" time="142.1545562744140625" chord="B:maj"/>
+      <chord index="58" time="143.994110107421875" chord="C#:maj"/>
+      <chord index="59" time="145.831268310546875" chord="E:maj"/>
+      <chord index="60" time="149.489227294921875" chord="B:maj"/>
+      <chord index="61" time="151.31353759765625" chord="C#:maj6"/>
+      <chord index="62" time="153.1437225341796875" chord="E:maj"/>
+      <chord index="63" time="155.8938751220703125" chord="B:maj"/>
+      <chord index="64" time="158.4188232421875" chord="C#:7"/>
+      <chord index="65" time="160.480499267578125" chord="E:maj"/>
+      <chord index="66" time="163.4504547119140625" chord="B:maj"/>
+      <chord index="67" time="165.7401123046875" chord="C#:7"/>
+      <chord index="68" time="167.8019256591796875" chord="E:maj"/>
+      <chord index="69" time="170.9979095458984375" chord="B:maj"/>
+      <chord index="70" time="173.0597991943359375" chord="C#:maj"/>
+      <chord index="71" time="175.128997802734375" chord="E:maj"/>
+    </chords>
+  </chords_result>
+</response>
