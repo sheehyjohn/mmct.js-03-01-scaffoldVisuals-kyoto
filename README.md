@@ -16,6 +16,7 @@ While it will render to a video file it will also lose Framerate and as such use
 * Which worse means that whether it is in sync needs to be tested for and it may work differently for different samples
 
 What is important to remember is that samples can be sources/recorded and then downloaded into the RemixVideo and Reaper used as a Sequencer and live mixer for these samples....therefore while it would be great to attach live audio to RemixVideo Pads and it would be wonderful if the RemixVideo Render worked ..... what's important to remember is that it is beautiful when it works well and it does have a definate use case and appreas to stable when used as in Reaper DAW to run sequences of samples with live effects
+Also it can be used as a Standalone Sequencer
 
 
 
