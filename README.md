@@ -23,6 +23,20 @@ I tried Snagit Screen capture and it didn't work although at least the video was
 
 Now it looks like that Sprout could be an option or else it just comes down to the fact that this machines graphics processing capabilites are insufficent and that the software is ok and it's a hardware issues that requires an upgrade to resolve
 
+## Best (so far) Render Method
+### best way is sync ends of track!
+click record in RemixVideo VST and then playback MIDI Project....had to reduce to 480p otherwise dropped frames....audio appears out of sync with the rendered file
+
+Dropped frames so reduced the resolution/quality to 480p
+
+still dropped frames at the start
+
+Export is audio/video is out of sync
+
+This means that the design of the DAW project needs to allow for MIDI Signals at the start to allow for syncing the video back to the project
+
+
+
 
 # Magic Visuals
 * Magic can take multiple different types of input
