@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.11/x64" 1605613815
+<REAPER_PROJECT 0.1 "6.11/x64" 1605617137
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 8.70229007633588
-  ZOOM 50.47430263272134 257 0
+  CURSOR 39.38931297709924
+  ZOOM 71.04526911253242 2541 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -265,6 +265,170 @@
         GUID {D977F8BE-67B2-4970-A538-4C611A49AF46}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 4
+      >
+    >
+    <ITEM
+      POSITION 38.47328244277742
+      SNAPOFFS 0
+      LENGTH 1.83206106870229
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {3DDD8310-5FF0-4B9F-BB02-4179F7833647}
+      IID 86
+      NAME "ii - C# min - ii - C# min.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0B54A146-44CF-4EF0-835C-0910C9969206}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {EB8B7D7B-A2C2-434F-821E-5B271990A932}
+        <X 0 0 0 0 3 "ii - C# min"
+          /wNpaSAtIEMjIG1pbg==
+        >
+        E 0 90 31 63
+        E 0 90 3d 63
+        E 0 90 40 63
+        E 0 90 38 63
+        E 1919 80 31 00
+        E 0 80 38 00
+        E 0 80 40 00
+        E 0 80 3d 00
+        E 1 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {375C27B8-83E1-42D3-9C01-1E4296083690}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 81
+      >
+    >
+    <ITEM
+      POSITION 40.30534351145038
+      SNAPOFFS 0
+      LENGTH 1.8320610687023
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {8D5839C8-98AC-42E1-B11E-478FEEBE99BE}
+      IID 87
+      NAME "IV - E Maj - IV - E Maj.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E53C15CE-DB25-4BD7-8ECF-106648A5C403}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {C3DD408B-C74C-4F0A-8ACD-AE1B7877362B}
+        <X 0 0 0 0 3 "IV - E Maj"
+          /wNJViAtIEUgTWFq
+        >
+        E 0 90 34 63
+        E 0 90 3b 63
+        E 0 90 40 63
+        E 0 90 38 63
+        E 1919 80 34 00
+        E 0 80 38 00
+        E 0 80 40 00
+        E 0 80 3b 00
+        E 1 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {FFCA9189-66ED-4263-9670-18BBE15CAEAA}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 84
+      >
+    >
+    <ITEM
+      POSITION 42.1374045801349
+      SNAPOFFS 0
+      LENGTH 1.83206106870229
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {97B89293-F8F6-4FE5-9743-867E3B729DAD}
+      IID 88
+      NAME "V - B Maj - B Maj.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8B5EEC4-3364-4C46-9B91-CDD4DB4435D5}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {1BB8B3A9-90A7-46A1-8B67-74E02D2085D0}
+        <X 0 0 0 0 3 "V - B Maj"
+          /wNWIC0gQiBNYWo=
+        >
+        E 0 90 3f 63
+        E 0 90 42 63
+        E 0 90 2f 63
+        E 0 90 3b 63
+        E 1919 80 3f 00
+        E 0 80 3b 00
+        E 0 80 2f 00
+        E 0 80 42 00
+        E 1 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {EB554EB5-CFB2-4B75-9DF1-838CFF19FD8F}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 87
+      >
+    >
+    <ITEM
+      POSITION 43.96946564887185
+      SNAPOFFS 0
+      LENGTH 1.83206106870229
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {F5E2931E-9C2A-4B5E-B341-49E1F3872403}
+      IID 89
+      NAME "VII - F# or A# - VII - F# or A#.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6977CDF6-24FB-4DF1-A96D-11FC0A993C04}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {BD39215F-80C1-47E4-92CC-CE9FCBCADF13}
+        <X 0 0 0 0 3 "VII - F# or A#"
+          /wNWSUkgLSBGIyBvciBBIw==
+        >
+        E 0 90 2e 63
+        E 0 90 3a 63
+        E 0 90 3d 63
+        E 0 90 36 63
+        E 1919 80 2e 00
+        E 0 80 36 00
+        E 0 80 3d 00
+        E 0 80 3a 00
+        E 1 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {8130518D-6E7B-477D-A726-7F872B26C24E}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 89
       >
     >
   >
