@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.25/win64" 1618414040
+<REAPER_PROJECT 0.1 "6.25/win64" 1618414164
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -101,7 +101,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -113,7 +113,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 127.90681265428999
+      POSITION 110.34098789032421
       SNAPOFFS 0
       LENGTH 10.52795632412459
       LOOP 1
@@ -155,7 +155,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -167,7 +167,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 17.565826
+      POSITION 0.00000123603421
       SNAPOFFS 0
       LENGTH 275.11199546485227
       LOOP 1
@@ -175,7 +175,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {F51B32A4-1A03-4BC6-8BFA-096E8465EE2E}
       IID 2
       NAME "tellMe - solo - 210208.wav"
@@ -283,7 +283,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 17.56582476396579
+      POSITION 0
       SNAPOFFS 0
       LENGTH 72.86564346548178
       LOOP 1
@@ -291,7 +291,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 12.577998 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {EDF84B05-F5AF-4800-9E3D-E7E6D9BE6EA0}
       IID 12
       NAME "tellMe - solo - 210208.mp4"
@@ -305,7 +305,7 @@
       >
     >
     <ITEM
-      POSITION 90.43146822944757
+      POSITION 72.86564346548181
       SNAPOFFS 0
       LENGTH 5.85527492133114
       LOOP 1
@@ -313,7 +313,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {CE0E6732-D433-4112-A85F-32747DBE2356}
       IID 13
       NAME "tellMe - solo - 210208.mp4"
@@ -327,7 +327,7 @@
       >
     >
     <ITEM
-      POSITION 96.28674315077872
+      POSITION 78.72091838681294
       SNAPOFFS 0
       LENGTH 195.39108161318711
       LOOP 1
@@ -335,7 +335,7 @@
       FADEIN 1 10.192516 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {8E193630-B0A8-46F0-999B-3AC6091D807E}
       IID 14
       NAME "tellMe - solo - 210208.mp4"
@@ -443,7 +443,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 66.44197683513688
+      POSITION 48.87615207117108
       SNAPOFFS 0
       LENGTH 18.38921269901647
       LOOP 1
@@ -451,7 +451,7 @@
       FADEIN 1 2.332435 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {DFDB1798-7D17-4DCD-B29D-67974D184A25}
       IID 3
       NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
@@ -465,7 +465,7 @@
       >
     >
     <ITEM
-      POSITION 84.83118953415335
+      POSITION 67.26536477018757
       SNAPOFFS 0
       LENGTH 25.77955115551957
       LOOP 1
@@ -473,7 +473,7 @@
       FADEIN 1 13.244612 0 1 0 0 0
       FADEOUT 1 14.16912 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {8E0B7D05-4CE2-4800-AB9F-A88B1F7C4672}
       IID 5
       NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
@@ -538,7 +538,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 79.46766916360689
+      POSITION 61.90184439964111
       SNAPOFFS 0
       LENGTH 28.01176554835178
       LOOP 1
@@ -546,7 +546,7 @@
       FADEIN 1 15.126804 0 1 0 0 0
       FADEOUT 1 11.470758 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {1F180956-22E3-4112-A1EC-D491D0155A6B}
       IID 3
       NAME X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG.wav
