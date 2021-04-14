@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.25/win64" 1618411822
+<REAPER_PROJECT 0.1 "6.25/win64" 1618413680
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -10,12 +10,12 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
-  GRID 3199 8 1 8 1 0 0 0
+  GRID 3455 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 76
-  ZOOM 3.27605841196314 0 0
+  CURSOR 96.07152979954901
+  ZOOM 6.36400816428834 0 0
   VZOOMEX 16 0
   USE_REC_CFG 0
   RECMODE 1
@@ -24,6 +24,7 @@
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
+    ZXZhdxgAAA==
   >
   <APPLYFX_CFG
   >
@@ -37,7 +38,7 @@
   RENDER_STEMS 0
   RENDER_DITHER 0
   TIMELOCKMODE 1
-  TEMPOENVLOCKMODE 1
+  TEMPOENVLOCKMODE 0
   ITEMMIX 0
   DEFPITCHMODE 589824 0
   TAKELANE 1
@@ -55,8 +56,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 80.67267669389568 93.03381263892808
+  SELECTION2 80.67267669389568 93.03381263892808
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -85,12 +86,12 @@
   >
   <PROJBAY
   >
-  <TRACK {0B992CE5-FA44-4082-A401-AFC383EFF8F9}
-    NAME "03 - tellMe - bassSolo - 02"
+  <TRACK {C443731B-101A-46CD-BC33-82A78C84FDDA}
+    NAME "tellMe - solo - 210208"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.31104826827022 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -98,7 +99,54 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C443731B-101A-46CD-BC33-82A78C84FDDA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 17.565826
+      SNAPOFFS 0
+      LENGTH 275.11199546485227
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {F51B32A4-1A03-4BC6-8BFA-096E8465EE2E}
+      IID 2
+      NAME "tellMe - solo - 210208.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C2342A1F-8C6A-4097-B958-4B3051E8D515}
+      <SOURCE WAVE
+        FILE "C:\Users\sheeh\OneDrive\music i visuals\music\210201 - tellMeInstrumental\03 - tellMe - bassSolo\exports\shared\tellMe - solo - 210208.wav"
+      >
+    >
+  >
+  <TRACK {0B992CE5-FA44-4082-A401-AFC383EFF8F9}
+    NAME "03 - tellMe - bassSolo - 02"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -110,10 +158,27 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT -1896 63 655 408
+      WNDRECT -1684 464 655 408
       SHOW 0
-      LASTSEL 0
+      LASTSEL 1
       DOCKED 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |// Item fades affect video
+          |input_track(0) > 0 ? (
+          |  input_info(0,project_w,project_h,0,ta=0);
+          |  ta < 1 ? (
+          |    gfx_blit(input_next_item(0),1);
+          |    (gfx_a=ta)>0 ? gfx_blit(0,1);
+          |  );
+          |);
+        >
+        CODEPARM 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+      >
+      FLOATPOS 0 0 0 0
+      FXID {CAD77CFF-88A4-49C1-B360-A2DAE1B29501}
+      WAK 0 0
       BYPASS 0 0 0
       <VIDEO_EFFECT "Video processor" ""
         <CODE
@@ -155,30 +220,74 @@
           |  );
           |);
         >
-        CODEPARM 0.5250000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+        CODEPARM 0.9250000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
       >
       FLOATPOS 0 0 0 0
       FXID {2FC565FE-9512-4076-9040-977D1935D49C}
       WAK 0 0
     >
     <ITEM
-      POSITION 16
+      POSITION 17.56582476396579
       SNAPOFFS 0
-      LENGTH 274.112
+      LENGTH 72.86564346548178
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
+      FADEOUT 1 12.577998 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {B5DAE2FB-E27D-458B-82A9-247EB3597E68}
-      IID 2
+      IGUID {EDF84B05-F5AF-4800-9E3D-E7E6D9BE6EA0}
+      IID 12
       NAME "tellMe - solo - 210208.mp4"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {AEF75662-B6FF-4F5E-A47E-B313DDDF46E3}
+      GUID {5E79950E-CB76-4646-9127-75F3DA54E0F0}
+      <SOURCE VIDEO
+        FILE "C:\Users\sheeh\OneDrive\music i visuals\music\210201 - tellMeInstrumental\03 - tellMe - bassSolo\exports\shared\tellMe - solo - 210208.mp4"
+      >
+    >
+    <ITEM
+      POSITION 90.43146822944757
+      SNAPOFFS 0
+      LENGTH 5.85527492133114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE0E6732-D433-4112-A85F-32747DBE2356}
+      IID 13
+      NAME "tellMe - solo - 210208.mp4"
+      VOLPAN 0.287671 0 1 -1
+      SOFFS 72.86564346548178
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AC08C4CE-378A-4402-AB16-E4353F85263D}
+      <SOURCE VIDEO
+        FILE "C:\Users\sheeh\OneDrive\music i visuals\music\210201 - tellMeInstrumental\03 - tellMe - bassSolo\exports\shared\tellMe - solo - 210208.mp4"
+      >
+    >
+    <ITEM
+      POSITION 96.28674315077872
+      SNAPOFFS 0
+      LENGTH 195.39108161318711
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 10.192516 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8E193630-B0A8-46F0-999B-3AC6091D807E}
+      IID 14
+      NAME "tellMe - solo - 210208.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 78.72091838681293
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6E57BA11-E4D8-4A76-8EFF-32BA14D53730}
       <SOURCE VIDEO
         FILE "C:\Users\sheeh\OneDrive\music i visuals\music\210201 - tellMeInstrumental\03 - tellMe - bassSolo\exports\shared\tellMe - solo - 210208.mp4"
       >
@@ -200,11 +309,149 @@
     SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 25 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 6
     FX 1
     TRACKID {0AAA8986-1159-426C-A955-23267B3AECD8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT -1896 63 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |// Item fades affect video
+          |input_track(0) > 0 ? (
+          |  input_info(0,project_w,project_h,0,ta=0);
+          |  ta < 1 ? (
+          |    gfx_blit(input_next_item(0),1);
+          |    (gfx_a=ta)>0 ? gfx_blit(0,1);
+          |  );
+          |);
+        >
+        CODEPARM 0.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+      >
+      FLOATPOS 0 0 0 0
+      FXID {12F44556-B0E8-4760-B576-C537E9B17243}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |// Track opacity/zoom/pan
+          |//@param1:opacity 'opacity' 1
+          |//@param2:zoom 'zoom' 0 -10 10 0
+          |//@param3:xoffs 'X offset' 0 -1 1 0
+          |//@param4:yoffs 'Y offset' 0 -1 1 0
+          |//@param5:rotate 'rotate' 0 -360 360 0 1
+          |//@param7:filter 'filter' 0 0 1 0.5 1
+          |//@param8:clear 'clear bg' 1 0 1 0.5 1
+          |//@param9:force_w 'force width' 0 0 2600 1024 2
+          |//@param10:force_h 'force height' 0 0 2600 1024 2
+          |//@param11:paspect 'preserve aspect' 1 0 1 0.5 1
+          |
+          |(bg_img=input_ismaster() ? -2 : input_track(0)) ? (
+          |  force_w &= -2; force_h &= -2;
+          |  force_w && !force_h ? force_h = (force_w * project_h / project_w)&-2;
+          |  force_h && !force_w ? force_w = (force_h * project_w / project_h)&-2;
+          |  force_w>0 && force_h>0 ? ( project_w=force_w; project_h=force_h );
+          |
+          |  w = opacity < 0.01 ? 0 : opacity > 0.99 ? 1 : opacity;
+          |  gfx_a2=0;
+          |  gfx_blit((w < 1 || clear < 0.5) ? bg_img : -2,1);
+          |
+          |  w > 0 ? (
+          |    gfx_mode = filter>0.5 ? 256 : 0;
+          |    gfx_a=w;
+          |    z = 10^(zoom/10);
+          |    dw = (project_w*z)&-2;
+          |    dh = (project_h*z)&-2;
+          |    x = (project_w - dw + xoffs*(project_w+dw))*.5;
+          |    y = (project_h - dh + yoffs*(project_h+dh))*.5;
+          |    rotate == 0 ? gfx_blit(0,paspect, x|0,y|0,dw,dh) : (
+          |      input_info(0,srcw,srch);
+          |      sc=2.0; sc2=sc*.5 - 0.5;
+          |      gfx_rotoblit(0,rotate*$pi/180,(x-dw*sc2)|0,(y-dh*sc2)|0,dw*sc,dh*sc, -srcw*sc2, -srch*sc2, srcw*sc, srch*sc);
+          |    );
+          |  );
+          |);
+        >
+        CODEPARM 0.9250000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3C321882-4CCD-4637-9D8D-1DBD769B9CB0}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 66.44197683513688
+      SNAPOFFS 0
+      LENGTH 18.38921269901647
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 2.332435 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DFDB1798-7D17-4DCD-B29D-67974D184A25}
+      IID 3
+      NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
+      VOLPAN 0 0 1 -1
+      SOFFS 49.44197683513607
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1096AD64-36AF-409F-9DEE-A18DA1CF4D8A}
+      <SOURCE VIDEO
+        FILE "C:\Users\sheeh\Videos\X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
+      >
+    >
+    <ITEM
+      POSITION 84.83118953415335
+      SNAPOFFS 0
+      LENGTH 25.77955115551957
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 13.244612 0 1 0 0 0
+      FADEOUT 1 14.16912 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8E0B7D05-4CE2-4800-AB9F-A88B1F7C4672}
+      IID 5
+      NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
+      VOLPAN 0.965753 0 1 -1
+      SOFFS 67.83118953415254
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3FA0F0F1-9F6E-47A3-8006-38E3C8D10FCB}
+      <SOURCE VIDEO
+        FILE "C:\Users\sheeh\Videos\X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
+      >
+    >
+  >
+  <TRACK {AC00FB84-7E55-452F-961B-C3E18F110DCD}
+    NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 1
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 6
+    FX 1
+    TRACKID {AC00FB84-7E55-452F-961B-C3E18F110DCD}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -231,29 +478,29 @@
         CODEPARM 0.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
       >
       FLOATPOS 0 0 0 0
-      FXID {12F44556-B0E8-4760-B576-C537E9B17243}
+      FXID {04F046B3-8514-448E-85CD-28AFE2A871F6}
       WAK 0 0
     >
     <ITEM
-      POSITION 80
+      POSITION 79.46766916360689
       SNAPOFFS 0
-      LENGTH 24
+      LENGTH 28.01176554835178
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 12.794438 0 1 0 0 0
-      FADEOUT 1 11.205562 0 1 0 0 0
+      FADEIN 1 15.126804 0 1 0 0 0
+      FADEOUT 1 11.470758 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {DFDB1798-7D17-4DCD-B29D-67974D184A25}
+      IGUID {1F180956-22E3-4112-A1EC-D491D0155A6B}
       IID 3
-      NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
-      VOLPAN 1 0 1 -1
-      SOFFS 63
+      NAME X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG.wav
+      VOLPAN 0.671233 0 1 -1
+      SOFFS 79.46766916360689
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {1096AD64-36AF-409F-9DEE-A18DA1CF4D8A}
-      <SOURCE VIDEO
-        FILE "C:\Users\sheeh\Videos\X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
+      GUID {5A45EBD8-A65E-47A8-A9D6-81D1D56194A4}
+      <SOURCE WAVE
+        FILE "C:\Users\sheeh\Videos\X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG.wav"
       >
     >
   >
