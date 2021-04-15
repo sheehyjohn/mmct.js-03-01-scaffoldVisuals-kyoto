@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.25/win64" 1618465749
+<REAPER_PROJECT 0.1 "6.25/win64" 1618465808
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,7 +14,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 16
+  CURSOR 42.5
   ZOOM 35.85960413809064 437 0
   VZOOMEX 6 0
   USE_REC_CFG 0
@@ -117,7 +117,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -564,7 +564,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {61E90FDD-5ECD-4257-B0AA-7C49C16F9A3E}
       IID 25
       NAME "V - A Maj - V - A Maj.mid"
@@ -600,47 +600,6 @@
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -1920 65 -792 549 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
-      >
-    >
-    <ITEM
-      POSITION 42
-      SNAPOFFS 0
-      LENGTH 2
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {6F2BFBC7-CC68-485E-AEFB-71D511E4A0CB}
-      IID 26
-      NAME "I - D Maj - I - D Maj.mid"
-      VOLPAN 1 0 1 -1
-      SOFFS 0 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9F490EDD-412A-4B51-AA39-B1EE5FB0E302}
-      <SOURCE MIDI
-        HASDATA 1 480 QN
-        CCINTERP 32
-        POOLEDEVTS {7C2B1753-0204-423B-BE4E-CF4EAAA2346D}
-        <X 0 0 0 0 3 "I - D Maj"
-          /wNJIC0gRCBNYWo=
-        >
-        E 0 90 42 63
-        E 0 90 39 63
-        E 0 90 3e 63
-        E 0 90 32 63
-        E 1919 80 42 00
-        E 0 80 32 00
-        E 0 80 3e 00
-        E 0 80 39 00
-        E 1 b0 7b 00
-        CCINTERP 32
-        CHASE_CC_TAKEOFFS 1
-        GUID {4DF789A7-FFD6-4F92-AF0A-2D265692C404}
-        IGNTEMPO 0 120 4 4
-        SRCCOLOR 31
       >
     >
   >
