@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.25/win64" 1618465808
+<REAPER_PROJECT 0.1 "6.25/win64" 1618466027
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,13 +14,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 42.5
+  CURSOR 44.5
   ZOOM 35.85960413809064 437 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 1
+  LOOP 0
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -377,6 +377,7 @@
         GUID {D8B01DC7-CFCA-49CA-849E-D30B7F960B3F}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 25
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -465,6 +466,7 @@
         GUID {74967472-C127-4F17-9034-158B105277DB}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 27
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -553,6 +555,7 @@
         GUID {7DD22586-CF4E-4C24-A120-DC9E5BE271B2}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 29
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -576,7 +579,7 @@
       <SOURCE MIDI
         HASDATA 1 480 QN
         CCINTERP 32
-        POOLEDEVTS {52BAC42F-7CD1-4FA3-8E8F-390A9775C96B}
+        POOLEDEVTS {E8AC5DF6-0AA5-4F57-A222-D06884246247}
         <X 0 0 0 0 3 "V - A Maj"
           /wNWIC0gQSBNYWo=
         >
@@ -600,6 +603,48 @@
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -1920 65 -792 549 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 42
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {562766C0-3AFF-4105-AD59-BEFF04D0B257}
+      IID 27
+      NAME "I - D Maj - I - D Maj.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E15E97E-9A47-4294-A2BF-2AADAA90C3A4}
+      <SOURCE MIDI
+        HASDATA 1 480 QN
+        CCINTERP 32
+        POOLEDEVTS {4D69B185-C9DF-409E-92F2-7AD93F74F755}
+        <X 0 0 0 0 3 "I - D Maj"
+          /wNJIC0gRCBNYWo=
+        >
+        E 0 90 42 63
+        E 0 90 39 63
+        E 0 90 3e 63
+        E 0 90 32 63
+        E 1919 80 42 00
+        E 0 80 32 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 1 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {2D59F702-9E23-4350-8E6F-866C3F40821B}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 32
+        VELLANE -1 100 0
       >
     >
   >
