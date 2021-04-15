@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.25/win64" 1618466680
+<REAPER_PROJECT 0.1 "6.25/win64" 1618474229
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 237.24557443257223
-  ZOOM 17.74701176226426 3578 0
+  CURSOR 264.89335332341398
+  ZOOM 24.97986422453251 5928 0
   VZOOMEX 16 0
   USE_REC_CFG 0
   RECMODE 1
@@ -101,7 +101,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -121,7 +121,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {7EFC2AB2-8B6B-49C5-8E45-5352DC5614E8}
       IID 15
       NAME "Click source"
@@ -155,7 +155,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -166,6 +166,330 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT -1897 62 1159 626
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: Mini Grand (AIR Music Technology)" MiniGrand_x64.dll 0 "" 1917283917<97E9E3945231B468945DA6A5C9A4E249> ""
+        TW5Hcu5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAJkBAAABAAAAAAAQAA==
+        iQEAAAAAAAAAAAAAAAAAAAgAAAAUPyY/AAAAP5qZGT/D9ag+AAAAAGZmJj8AAAAAAACAPygAAAAGFcEoAAAAFABNAGkAbgBpACAARwByAGEAbgBkAAAAAP/////erb7v
+        9AAAAAYVwSgAAAAUAE0AaQBuAGkAIABHAHIAYQBuAGQAAAAA/////wAAAMgAAAAHAAAABwAAAAAAAAAAAAAAAAAAAAA/gAAAAAAAAAAAAA4AAAAAAAAAAQAAAAAAAAAA
+        P4AAAAAAAAEAAABHAAAAAAAAAAUAAAAAAAAAAD+AAAAAAAAFAAAASAAAAAAAAAAEAAAAAAAAAAA/gAAAAAAABAAAAEkAAAAAAAAAAwAAAAAAAAAAP4AAAAAAAAMAAABK
+        AAAAAAAAAAAAAAAAAAAAAD+AAAAAAAAAAAAAWwAAAAAAAAACAAAAAAAAAAA/gAAAAAAAAt6tvu8wAAAAAAAAEABQAGwAYQB5AFAAYQBnAGUAAAABAAAAEABQAGwAYQB5
+        AFAAYQBnAGX/////CQAAAC9EZWZhdWx0AA==
+        AGRlZmF1bHQAEAAAAA==
+      >
+      PRESETNAME default
+      FLOATPOS 0 0 0 0
+      FXID {EB9D9F36-5C91-4D3E-985A-0422AB594A0D}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 246.19829574414339
+      SNAPOFFS 0
+      LENGTH 2.29085161742915
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {85AE83D1-6368-434B-973E-E21C2A56E071}
+      IID 1
+      NAME "tellMe - solo - 210208 chords bars 203 to 269 - tellMe - solo - 210208 chords bars 203 to 269.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 39.14524376029155 77.32060937849621
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {805BBD19-CB05-480D-8898-579A68F9DB74}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {795C0A20-83E8-4003-BE03-28E403F48357}
+        <X 0 0 0 0 3 "tellMe - solo - 210208 chords bars 203 to 269"
+          /wN0ZWxsTWUgLSBzb2xvIC0gMjEwMjA4IGNob3JkcyBiYXJzIDIwMw==
+          IHRvIDI2OQ==
+        >
+        <X 0 0 0 0 2 "exported with zplane deCoda 1.2.1"
+          /wJleHBvcnRlZCB3aXRoIHpwbGFuZSBkZUNvZGEgMS4yLjE=
+        >
+        <X 0 0 0 0 6 B3
+          /wZCMw==
+        >
+        E 0 90 42 64
+        E 0 90 45 64
+        E 0 90 49 64
+        E 2398 80 42 00
+        E 0 80 45 00
+        E 0 80 49 00
+        E 0 90 47 64
+        E 0 90 4b 64
+        E 0 90 42 64
+        E 2402 80 47 00
+        E 0 80 4b 00
+        E 0 80 42 00
+        E 0 90 42 64
+        E 0 90 45 64
+        E 0 90 49 64
+        E 4319 80 42 00
+        E 0 80 45 00
+        E 0 80 49 00
+        E 0 90 47 64
+        E 0 90 4b 64
+        E 0 90 42 64
+        E 3840 80 47 00
+        E 0 80 4b 00
+        E 0 80 42 00
+        E 0 90 42 64
+        E 0 90 45 64
+        E 0 90 49 64
+        E 3361 80 42 00
+        E 0 80 45 00
+        E 0 80 49 00
+        E 0 90 47 64
+        E 0 90 4b 64
+        E 0 90 42 64
+        E 11036 80 47 00
+        E 0 80 4b 00
+        E 0 80 42 00
+        E 0 90 47 64
+        E 0 90 4a 64
+        E 0 90 42 64
+        E 11044 80 47 00
+        E 0 80 4a 00
+        E 0 80 42 00
+        E 0 90 45 64
+        E 0 90 49 64
+        E 0 90 4c 64
+        E 3358 80 45 00
+        E 0 80 49 00
+        E 0 80 4c 00
+        E 0 90 42 64
+        E 0 90 45 64
+        E 0 90 49 64
+        E 3362 80 42 00
+        E 0 80 45 00
+        E 0 80 49 00
+        E 0 90 4c 64
+        E 0 90 44 64
+        E 0 90 47 64
+        E 3840 80 4c 00
+        E 0 80 44 00
+        E 0 80 47 00
+        E 0 90 4a 64
+        E 0 90 42 64
+        E 0 90 45 64
+        E 7202 80 4a 00
+        E 0 80 42 00
+        E 0 80 45 00
+        E 0 90 42 64
+        E 0 90 46 64
+        E 0 90 49 64
+        E 5758 80 42 00
+        E 0 80 46 00
+        E 0 80 49 00
+        E 0 90 4a 64
+        E 0 90 42 64
+        E 0 90 45 64
+        E 2400 80 4a 00
+        E 0 80 42 00
+        E 0 80 45 00
+        E 0 90 42 64
+        E 0 90 45 64
+        E 0 90 49 64
+        E 5284 80 42 00
+        E 0 80 45 00
+        E 0 80 49 00
+        E 0 90 47 64
+        E 0 90 4b 64
+        E 0 90 42 64
+        E 4316 80 47 00
+        E 0 80 4b 00
+        E 0 80 42 00
+        E 0 90 42 64
+        E 0 90 46 64
+        E 0 90 49 64
+        E 4098 80 42 00
+        E 0 80 46 00
+        E 0 80 49 00
+        E 360 90 4a 64
+        E 0 90 42 64
+        E 0 90 45 64
+        E 10 80 42 00
+        E 0 80 45 00
+        E 0 80 4a 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {78F25839-5026-4F39-962A-8342897FE322}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 70
+        VELLANE -1 100 0
+        CFGEDITVIEW 104691.625391 0.012682 46 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -1920 65 -580 868 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 248.48914736157255
+      SNAPOFFS 0
+      LENGTH 12.68469265460246
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2AB1D285-9159-424C-8DA7-6CC4621EE7F4}
+      IID 22
+      NAME "tellMe - solo - 210208 chords bars 203 to 269 - tellMe - solo - 210208 chords bars 203 to 269.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C880D36-8829-40CB-AB31-9DA4FB8D86BB}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {ECD31550-26D3-48A0-9BC2-D01DE94C135F}
+        E 0 90 42 64
+        E 0 90 45 64
+        E 0 90 4a 64
+        E 3351 80 4a 00
+        E 0 80 42 00
+        E 0 80 45 00
+        E 843 90 45 64
+        E 0 90 49 64
+        E 0 90 4c 64
+        E 3596 80 45 00
+        E 0 80 49 00
+        E 0 80 4c 00
+        E 120 90 47 64
+        E 0 90 4b 64
+        E 0 90 42 64
+        E 3840 80 47 00
+        E 0 80 4b 00
+        E 0 80 42 00
+        E 0 90 42 64
+        E 0 90 46 64
+        E 0 90 49 64
+        E 3840 80 42 00
+        E 0 80 46 00
+        E 0 80 49 00
+        E 479 90 4a 64
+        E 0 90 42 64
+        E 0 90 45 64
+        E 3361 80 4a 00
+        E 0 80 42 00
+        E 0 80 45 00
+        E 480 90 45 64
+        E 0 90 49 64
+        E 0 90 4c 64
+        E 3120 80 45 00
+        E 0 80 49 00
+        E 0 80 4c 00
+        E 240 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {9AC46343-5A1A-4C3E-91DC-F1DD275D5D78}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 78
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.012682 46 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -1920 65 -580 868 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 261.23072204601624
+      SNAPOFFS 0
+      LENGTH 4.75770925110265
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C4E8341A-F77B-46E5-9E27-48BD11E49C09}
+      IID 20
+      NAME "tellMe - solo - 210208 chords bars 203 to 269 - tellMe - solo - 210208 chords bars 203 to 269.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FD47F2EA-EBB8-41B6-AD68-7E8FF057F0DB}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {2234145D-C252-4398-8549-7A8165F44FA9}
+        E 360 90 47 64
+        E 0 90 4b 64
+        E 0 90 42 64
+        E 8280 80 42 00
+        E 0 80 47 00
+        E 0 80 4b 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {8DFBF72D-4871-4940-8FD3-F28BEBE51E3C}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 76
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.012682 46 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -1920 65 -580 868 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 266.53467529504161
+      SNAPOFFS 0
+      LENGTH 7.92951541850215
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E565E324-DC44-4745-9E97-2D17556C8A72}
+      IID 21
+      NAME "tellMe - solo - 210208 chords bars 203 to 269 - tellMe - solo - 210208 chords bars 203 to 269.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3AB5563-CC34-4D0E-A4FC-7237E4533246}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {AEF763FC-5EDF-4143-91DA-3A46540A9FF8}
+        e 2498 90 42 64
+        e 0 90 46 64
+        e 0 90 49 64
+        e 11993 80 42 00
+        e 0 80 46 00
+        e 0 80 49 00
+        E 37 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {D3301662-24F0-4644-9DCF-7F5EE92F54D0}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 77
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.012682 46 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 -1920 65 -580 868 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
   >
   <TRACK {C443731B-101A-46CD-BC33-82A78C84FDDA}
     NAME "tellMe - solo - 210208"
@@ -183,7 +507,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
-    TRACKHEIGHT 125 0 0 0 0 0
+    TRACKHEIGHT 60 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -200,7 +524,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {F51B32A4-1A03-4BC6-8BFA-096E8465EE2E}
       IID 2
       NAME "tellMe - solo - 210208.wav"
@@ -316,7 +640,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 12.577998 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {EDF84B05-F5AF-4800-9E3D-E7E6D9BE6EA0}
       IID 12
       NAME "tellMe - solo - 210208.mp4"
@@ -338,7 +662,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {CE0E6732-D433-4112-A85F-32747DBE2356}
       IID 13
       NAME "tellMe - solo - 210208.mp4"
@@ -360,7 +684,7 @@
       FADEIN 1 10.192516 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {8E193630-B0A8-46F0-999B-3AC6091D807E}
       IID 14
       NAME "tellMe - solo - 210208.mp4"
@@ -476,7 +800,7 @@
       FADEIN 1 2.332435 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {DFDB1798-7D17-4DCD-B29D-67974D184A25}
       IID 3
       NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
@@ -498,7 +822,7 @@
       FADEIN 1 13.244612 0 1 0 0 0
       FADEOUT 1 14.16912 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {8E0B7D05-4CE2-4800-AB9F-A88B1F7C4672}
       IID 5
       NAME "X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG - Copy (2) - Copy - Copy - Copy.mkv"
@@ -571,7 +895,7 @@
       FADEIN 1 15.126804 0 1 0 0 0
       FADEOUT 1 11.470758 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {1F180956-22E3-4112-A1EC-D491D0155A6B}
       IID 3
       NAME X-Men.Days.of.Future.Past.2014.The.Rogue.Cut.1080p.BluRay.AC3.x264-ETRG.wav
